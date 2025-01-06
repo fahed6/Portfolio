@@ -2,7 +2,7 @@
 import { Card } from "../components/Card";
 import { SectionHeader } from "../components/SectionHeader";
 import bookImage from '../assets/images/book-cover.png'
-import mapImage from '../assets/images/maps.png'
+import mapImage from '../assets/images/map.png'
 import smileMemoji from '../assets/images/smiling.png'
 import JavaScriptIcon from '../assets/icons/square-js.svg'
 import HtmlIcon from '../assets/icons/html5.svg'
