@@ -24,10 +24,16 @@ import { CardHeader } from "../components/CardHeader";
 import { ToolboxItems } from "../components/ToolboxItems";
 import { motion } from "framer-motion";
 import { useRef } from "react";
-const toolBoxItems = [
+
+interface ToolBoxItem {
+  title: string;
+  iconType: string;
+}
+
+const toolBoxItems: ToolBoxItem[] = [
   { title: 'MySQL', iconType: mysql },
   { title: 'PHP', iconType: php },
-  { title: 'Wordpress', iconType: wordpress },
+  { title: 'WordPress', iconType: wordpress },
   { title: 'JavaScript', iconType: JavaScriptIcon },
   { title: 'HTML5', iconType: HtmlIcon },
   { title: 'CSS3', iconType: CssIcon },
@@ -40,8 +46,7 @@ const toolBoxItems = [
   { title: 'Java', iconType: java },
   { title: 'Machine Learning', iconType: machine },
   { title: 'Python', iconType: python },
-  
-]
+];
 
 const hobbies = [
   { title: 'Hackathons', emoji: '💻', top: '5%', left: '70%' },
