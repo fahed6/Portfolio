@@ -8,7 +8,7 @@ const calistoga =Calistoga({subsets:['latin'], variable: '--font-serif', weight:
 
 
 export const metadata: Metadata = {
-  title: "My Portfolio",
+  title: "Fahed Mannoubi",
   description: "Created with the help of Frontend Tribe",
 };
 
