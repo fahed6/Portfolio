@@ -76,7 +76,7 @@ export const HeroSection = () => {
     </div>
     <div className='max-w-lg mx-auto'>
     <h1 className='font-serif text-3xl md:text-5xl text-center mt-8 tracking-wide'> Building Exceptional User Experiences</h1>
-    <p className='mt-4 text-center text-white/60 md:text-lg'> I specialize in building robust, scalable applications from concept to deployment. Let's collaborate on your next project! </p>   
+    <p className='mt-4 text-center text-white/60 md:text-lg'>Im Fahed, a Full-Stack developer and AI student. I specialize in building robust, scalable applications from concept to deployment. Let's collaborate on your next project! </p>   
     </div>
     <div className='flex flex-col md:flex-row justify-center items-center mt-8 gap-4'>
       <button onClick={projects} className='inline-flex items-center gap-2 border border-white/15 px-6 h-12 rounded-xl'>

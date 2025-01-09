@@ -21,6 +21,7 @@ const portfolioProjects = [
     ],
     link: "https://github.com/fahed6/Drivng-School-MAA",
     image: darkSaasLandingPage,
+    button: "Visit Project Pepository",
   },
   {
     company: "University Project",
@@ -33,6 +34,7 @@ const portfolioProjects = [
     ],
     link: "https://github.com/fahed6/mv_manoubiFahed",
     image: lightSaasLandingPage,
+    button: "Visit Project Pepository",
   },
   {
     company: "University Project",
@@ -45,6 +47,7 @@ const portfolioProjects = [
     ],
     link: "https://github.com/fahed6/Integration-Project",
     image: pi,
+    button: "Visit Project Pepository",
   },
   {
     company: "HMC Metal Construction",
@@ -57,6 +60,7 @@ const portfolioProjects = [
     ],
     link: "https://hmcconstructionmetallique.tn",
     image: aiStartupLandingPage,
+    button: "Visit Live Site",
   },
   {
     company: "University Project",
@@ -69,6 +73,7 @@ const portfolioProjects = [
     ],
     link: "https://fahed6.github.io/horns/index.html",
     image: horns,
+    button: "Visit Live Site",
   },
 ];
 
@@ -102,7 +107,7 @@ export const ProjectsSection = () => {
                 </ul>
 
                 <a href={project.link}>
-                  <button className="bg-white inline-flex md:w-max px-6 justify-center items-center text-gray-950 h-12 rounded-xl mt-8 md:mt-[35.7px] w-full font-bold gap-2 "> <span>Visit Live Site</span><ArrowUpRightIcon className='size-4' /></button>
+                  <button className="bg-white inline-flex md:w-max px-6 justify-center items-center text-gray-950 h-12 rounded-xl mt-8 md:mt-[35.7px] w-full font-bold gap-2 "> <span>{project.button}</span><ArrowUpRightIcon className='size-4' /></button>
                 </a>
               </div>
               <div className="relative">
