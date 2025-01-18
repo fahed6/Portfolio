@@ -21,7 +21,7 @@ const portfolioProjects = [
     ],
     link: "https://github.com/fahed6/Drivng-School-MAA",
     image: darkSaasLandingPage,
-    button: "Visit Project Pepository",
+    button: "Visit Project Repository",
   },
   {
     company: "University Project",
@@ -34,7 +34,7 @@ const portfolioProjects = [
     ],
     link: "https://github.com/fahed6/mv_manoubiFahed",
     image: lightSaasLandingPage,
-    button: "Visit Project Pepository",
+    button: "Visit Project Repository",
   },
   {
     company: "University Project",
@@ -47,7 +47,7 @@ const portfolioProjects = [
     ],
     link: "https://github.com/fahed6/Integration-Project",
     image: pi,
-    button: "Visit Project Pepository",
+    button: "Visit Project Repository",
   },
   {
     company: "HMC Metal Construction",
