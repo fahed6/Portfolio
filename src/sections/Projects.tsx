@@ -1,19 +1,33 @@
-import darkSaasLandingPage from "@/assets/images/projectmaa.png";
-import lightSaasLandingPage from "@/assets/images/projectsyf.png";
+import ArrowUpRightIcon from '@/assets/icons/arrow-up-right.svg';
+import CheckCircleIcon from '@/assets/icons/check-circle.svg';
+import evert from "@/assets/images/e-vert.png";
+import Grain from '@/assets/images/grain.jpg';
+import aiStartupLandingPage from "@/assets/images/hmc.png";
 import horns from "@/assets/images/horns.png";
 import pi from "@/assets/images/pi.png";
-import aiStartupLandingPage from "@/assets/images/hmc.png";
-import Image from "next/image";
-import CheckCircleIcon from '@/assets/icons/check-circle.svg';
-import ArrowUpRightIcon from '@/assets/icons/arrow-up-right.svg';
-import Grain from '@/assets/images/grain.jpg'
-import { SectionHeader } from "@/components/SectionHeader";
+import darkSaasLandingPage from "@/assets/images/projectmaa.png";
+import lightSaasLandingPage from "@/assets/images/projectsyf.png";
 import { Card } from "@/components/Card";
+import { SectionHeader } from "@/components/SectionHeader";
+import Image from "next/image";
 const portfolioProjects = [
+  {
+    company: "Shop My Influence",
+    year: "2025",
+    title: "Full Stack Developer Internship",
+    results: [
+      { title: "AI model Training And Integration" },
+      { title: "Innovative Solutions" },
+      { title: "StartUp Building" },
+    ],
+    link: "https://github.com/fahed6/E-Vert",
+    image: evert,
+    button: "Visit Project Repository",
+  },
   {
     company: "Driving School MAA",
     year: "2024",
-    title: "Full Stack Developer (Internship)",
+    title: "Full Stack Developer Internship",
     results: [
       { title: "Built and tested software solutions" },
       { title: "Integrating APIs" },
@@ -52,7 +66,7 @@ const portfolioProjects = [
   {
     company: "HMC Metal Construction",
     year: "2023",
-    title: "Web Developer (Internship)",
+    title: "Web Developer Internship",
     results: [
       { title: "Boosted sales by 20%" },
       { title: "Developed and deployed" },

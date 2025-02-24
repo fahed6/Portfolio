@@ -20,6 +20,9 @@ import python from '../assets/icons/python-svgrepo-com.svg';
 import spring from '../assets/icons/spring-boot-svgrepo-com.svg';
 import typescript from '../assets/icons/typescript-svgrepo-com (1).svg';
 import wordpress from '../assets/icons/wordpress-svgrepo-com.svg';
+import react from '../assets/icons/react-2.svg';
+import nodejs from '../assets/icons/nodejs-icon.svg';
+import expressjs from '../assets/icons/expressjs-ar21.svg';
 import { CardHeader } from "../components/CardHeader";
 import { ToolboxItems } from "../components/ToolboxItems";
 import { motion } from "framer-motion";
@@ -46,6 +49,9 @@ const toolBoxItems: ToolBoxItem[] = [
   { title: 'Java', iconType: java },
   { title: 'Machine Learning', iconType: machine },
   { title: 'Python', iconType: python },
+  { title: 'react', iconType: react },
+  { title: 'nodejs', iconType: nodejs },
+  { title: 'expressjs', iconType: expressjs }
 ];
 
 const hobbies = [
