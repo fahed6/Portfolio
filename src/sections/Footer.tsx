@@ -3,8 +3,8 @@ import ArrowUp from '../assets/icons/arrow-up-right.svg';
 const footerLinks = [
   { title: 'Github', link: 'https://github.com/fahed6' },
   { title: 'LinkedIn', link: 'https://www.linkedin.com/in/mannoubi' },
-  { title: 'Resume', link: 'https://drive.google.com/file/d/14YWAUbmpReJDSKETR_9phJElYjFJTNZh/view?usp=sharing' },
-  { title: 'Certifications', link: 'https://drive.google.com/file/d/1vBoQ2dM8bXm5Ln0A10nLAa7iLiFPh-RF/view?usp=sharing' },
+  { title: 'Resume', link: 'https://drive.google.com/file/d/19KxP9ZtBsYE0-KiUhip6FBpKiEfiKCaU/view?usp=drive_link' },
+  { title: 'Certifications', link: 'https://drive.google.com/drive/folders/1GWKbKjxYcNCxwWbtIwtCTxQZUSGRn_ZU?usp=drive_link' },
 
 
 ]
