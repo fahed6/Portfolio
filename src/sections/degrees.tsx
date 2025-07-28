@@ -1,7 +1,7 @@
 import ArrowUpRightIcon from '@/assets/icons/arrow-up-right.svg';
 import CheckCircleIcon from '@/assets/icons/check-circle.svg';
 import chheda1 from "@/assets/images/chaheda1.png";
-import chheda2 from "@/assets/images/chaheda2.png";
+import chheda2 from "@/assets/images/chheda2.png";
 import Grain from '@/assets/images/grain.jpg';
 import { Card } from "@/components/Card";
 import { SectionHeader } from "@/components/SectionHeader";
