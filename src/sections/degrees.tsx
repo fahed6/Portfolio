@@ -1,14 +1,14 @@
 import ArrowUpRightIcon from '@/assets/icons/arrow-up-right.svg';
 import CheckCircleIcon from '@/assets/icons/check-circle.svg';
 import chheda1 from "@/assets/images/chaheda1.png";
+import chheda2 from "@/assets/images/chaheda2.png";
 import Grain from '@/assets/images/grain.jpg';
-import darkSaasLandingPage from "@/assets/images/projectmaa.png";
 import { Card } from "@/components/Card";
 import { SectionHeader } from "@/components/SectionHeader";
 import Image from "next/image";
 const portfolioProjects = [
   {
-    company: "Higher Institute of Technological Studies of Kelibia",
+    company: "Higher Institute of Technological Studies",
     year: "2022-2025",
     title: "Applied Bachelor in Information Systems Development",
     results: [
@@ -21,17 +21,17 @@ const portfolioProjects = [
     button: "View Degree",
   },
   {
-    company: "Driving School MAA",
-    year: "2024",
-    title: "Full Stack Developer Internship",
+    company: "High School of Bni Kaled",
+    year: "2019-2022",
+    title: "Baccalaureate in Computer Science",
     results: [
-      { title: "Built and tested software solutions" },
-      { title: "Integrating APIs" },
-      { title: "Implementing Spring Security" },
+      { title: "Algorithms & Logic" },
+      { title: "Basic Programming" },
+      { title: "Math & Computing" },
     ],
-    link: "https://github.com/fahed6/Drivng-School-MAA",
-    image: darkSaasLandingPage,
-    button: "Visit Project Repository",
+    link: "https://drive.google.com/file/d/1SMxCwZAVN5U9TjWjBCB3uSvh45rOQMpT/view?usp=drive_link",
+    image: chheda2,
+    button: "View Degree",
   },
   
 ];
